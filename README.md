@@ -15,3 +15,5 @@ If you do not want to make a withdrawl, please enter 0
 Withdraw complete! You withdrew: 46.0
 Would you like to make another withdrawl?
 0
+
+## Zulaikha, I removed the "!" after the sentence "There isn't enough Funds!"
