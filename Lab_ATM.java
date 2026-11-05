@@ -17,10 +17,12 @@ public class Lab_ATM
         System.out.print("Please enter your starting balance: $");
         BankAccount account1 = new BankAccount(keyboard.nextDouble());
         System.out.println("If you would like to make a withdrawl, please enter the amount you would like.\nIf you do not want to make a withdrawl, please enter 0");
-        double amount = keyboard.nextDouble();
-        while (amount != 0)
+        double amt = keyboard.nextDouble();
+        //Editor: Kainoa
+        // Changed the name of the "amount" variable to "amt"
+        while (amt != 0)
         {
-            account1.withdraw(amount);
+            account1.withdraw(amt);
             System.out.println("Would you like to make another withdrawl?");
             amount = keyboard.nextDouble();
         }
@@ -33,12 +35,12 @@ class BankAccount
     {
         balance = b;
     }
-    void withdraw(double amount)
+    void withdraw(double amt)
     {
-        if(amount <= balance)
+        if(amt <= balance)
         {
-            balance = balance - amount;
-            System.out.println("Withdraw complete! You withdrew: " + amount);
+            balance = balance - amt;
+            System.out.println("Withdraw complete! You withdrew: " + amt);
         }
         else
         {
