@@ -19,4 +19,4 @@ Would you like to make another withdrawl?
 ## Zulaikha, I removed the "!" after the sentence "There isn't enough Funds!"
 Collaboration Acknowledgment
 This project was reviewed and edited by Zulaikha on GitHub.
-This project was reviewed and edited by Tainoa on GitHub.
+This project was reviewed and edited by Thieben on GitHub.
